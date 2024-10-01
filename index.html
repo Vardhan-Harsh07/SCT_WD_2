@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modern Stopwatch</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Logo -->
+    <div class="logo">
+      <img src="./stop.png" alt="Stopwatch Logo" class="logo-img"> <!-- Imported image -->
+    </div>
+
+    <!-- Stopwatch Section -->
+    <div class="stopwatch-card">
+      
+      <div class="time-display" id="display">00:00:00.000</div>
+      
+      <!-- Control Buttons with Lucide Icons -->
+      <div class="controls">
+        <button id="startBtn" class="btn start">
+          <span class="icon">▶️</span> Start
+        </button>
+        <button id="pauseBtn" class="btn pause">
+          <span class="icon">⏸️</span> Pause
+        </button>
+        <button id="resetBtn" class="btn reset">
+          <span class="icon">🔄</span> Reset
+        </button>
+        <button id="lapBtn" class="btn lap">
+          <span class="icon">🕒</span> Lap
+        </button>
+      </div>
+
+      <!-- Laps Section -->
+      <div class="lap-container">
+        <ul id="laps" class="lap-list"></ul>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #EDDFE0; /* Main background color */
+  }
+  
+  .container {
+    background-color: #F5F5F7; /* Light grey for container */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 500px;
+  }
+  .logo {
+    text-align: center;
+    margin-bottom: 20px; /* Adds space between the logo and title */
+  }
+  
+  .logo-img {
+    width: 80px; /* Adjust the size of the logo */
+    height: auto; /* Keep the aspect ratio */
+  }
+  
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #705C53; /* Brownish tone for title */
+  }
+  
+  .stopwatch {
+    margin-bottom: 20px;
+  }
+  
+  
+  .time-display {
+    font-size: 3rem;
+    color: #333;
+    background-color: #F5F5F7;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.1); /* To make it pop */
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px; /* Add gap between buttons */
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: #FFF; /* White text for buttons */
+    flex: 1; /* Ensure buttons take up equal space */
+  }
+  
+  .start {
+    background-color: #705C53; /* Brownish tone for start */
+  }
+  
+  .start:hover {
+    background-color: #5D493E; /* Darker brown on hover */
+  }
+  
+  .pause {
+    background-color: #B7B7B7; /* Light grey for pause */
+  }
+  
+  .pause:hover {
+    background-color: #9A9A9A; /* Darker grey on hover */
+  }
+  
+  .reset {
+    background-color: #705C53; /* Brownish tone for reset */
+  }
+  
+  .reset:hover {
+    background-color: #5D493E; /* Darker brown on hover */
+  }
+  
+  .lap {
+    background-color: #B7B7B7; /* Light grey for lap */
+  }
+  
+  .lap:hover {
+    background-color: #9A9A9A; /* Darker grey on hover */
+  }
+  
+  .lap-container {
+    margin-top: 30px;
+  }
+  
+  .lap-list {
+    list-style-type: none;
+    max-height: 150px;
+    overflow-y: auto;
+  }
+  
+  .lap-list li {
+    background-color: #F5F5F7; /* Light grey for lap items */
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
