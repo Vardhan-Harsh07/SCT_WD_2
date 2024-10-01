@@ -13,7 +13,7 @@ Welcome to my minimalistic and user-friendly stopwatch web application! This pro
 - **JavaScript**: For implementing the stopwatch functionality.
 
 ## 🌐 Links
-- **Live Website**: [Visit the live website](https://sct-wd-2-vardhan-harsh07s-projects.vercel.app/)  *(Add the live link here if available)*
+- **Live Website**: [Visit the live website](https://sct-wd-2-vardhan-harsh07s-projects.vercel.app/)   
 
 ## ⏳ Let’s Manage Time Efficiently!
 I hope this stopwatch helps you manage your time better in daily activities, workouts, or any events!
